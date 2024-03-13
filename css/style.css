@@ -1,0 +1,54 @@
+@import url(variables.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header div img{
+    background-color: red;
+    color: black;
+}
+.container{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-content: space-between;
+    flex-direction: row;
+    
+}
+.box,
+.box_2{
+    display: flex;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 12%;
+    margin-bottom: 10%;
+    width: 50vw;
+    height: 15vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.left,
+.right{
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+    text-align: center;
+    width: 50%;
+    margin-bottom: 50%;
+
+}
+.left div small,
+.right div small{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.box img,
+.box_2 img{
+    object-fit: contain;
+}
+
